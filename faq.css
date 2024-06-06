@@ -1,0 +1,94 @@
+.faq-header {
+    background-color: #333;
+    /* Gray */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-header h1 {
+    margin: 0;
+}
+
+.faq-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.faq-nav ul li {
+    margin-left: 20px;
+}
+
+.faq-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.faq-main {
+    padding: 20px;
+}
+
+.faq-section {
+    background-color: #2e3a4d;
+    /* Dark blue */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.faq-h3 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.faq-p {
+    margin: 0;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.faq-p.hidden {
+    display: none;
+}
+
+
+/* Updated FAQ toggle button styling */
+
+
+/* Add some transitions to the button for a smoother visual effect */
+
+.faq-toggle {
+    background-color: #ff0045;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
+    float: right;
+    transition: background-color 0.3s;
+}
+
+.faq-toggle.active {
+    background-color: #ff506a;
+    /* Light red */
+}
+
+.faq-toggle:hover {
+    background-color: #ff506a;
+    /* Light red */
+}
+
+
+/* Add some hover effect to the toggle button label */
+
+.faq-toggle-label {
+    transition: transform 0.3s;
+}
+
+.faq-toggle:hover .faq-toggle-label {
+    transform: scale(1.2);
+    /* Increase size on hover */
+}

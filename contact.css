@@ -1,0 +1,112 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141d26;
+    /* Dark blue */
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+
+/* Form Styles */
+
+.contact-form {
+    background-color: #2e3a4d;
+    /* Dark blue */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #1d2633;
+    /* Dark blue */
+    color: #fff;
+    outline: none;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #ff0045;
+    /* Red */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #ff506a;
+    /* Light red */
+}
+
+
+/* Form Labels */
+
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+/* Centering and Layout */
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Success Message */
+
+.success-message {
+    background-color: #4caf50;
+    /* Green */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+/* Error Message */
+
+.error-message {
+    background-color: #f44336;
+    /* Red */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+/* Responsive Layout */
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}

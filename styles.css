@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141d26;
+    /* Dark blue */
+    color: #fff;
+}
+
+header {
+    background-color: #1d2633;
+    /* Dark blue */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#featured-manga,
+#featured-light-novels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    /* Add this line */
+}
+
+.product img {
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.product button {
+    background-color: #ff0045;
+    /* Red */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #ff506a;
+    /* Light red */
+}
+
+footer {
+    background-color: #1d2633;
+    /* Dark blue */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#back-to-top {
+    background-color: #ff0045;
+    /* Red */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#back-to-top:hover {
+    background-color: #ff506a;
+    /* Light red */
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+/* Apply font, margin, padding, and background color */
+
+a {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141d26;
+    /* Dark blue */
+    color: #fff;
+}
+
+
+/* Remove underline from the link */
+
+a {
+    text-decoration: none;
+}
+
+
+/* Make the link bold */
+
+a {
+    font-weight: bold;
+}
+
+
+/* Change the color of the link on hover */
+
+a:hover {
+    color: #ff0045;
+    /* Red */
+}
+
+
+/* Add underline on hover */
+
+a:hover {
+    text-decoration: underline;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: calc(25% - 20px);
+    /* Adjust the width as necessary */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}

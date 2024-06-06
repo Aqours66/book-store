@@ -1,0 +1,122 @@
+.profile-container {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.profile-title {
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-username,
+.profile-email {
+    margin-bottom: 10px;
+}
+
+.profile-username strong,
+.profile-email strong {
+    font-weight: bold;
+}
+
+
+/* Form container */
+
+
+/* Form section */
+
+.profile-form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    /* Adjust padding to increase the space between the input fields and the border */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: #1d2633;
+    /* Dark blue */
+    color: #fff;
+}
+
+.profile-form input[type="text"],
+.profile-form input[type="email"],
+.profile-form input[type="password"],
+.profile-form input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #1d2633;
+    border-radius: 10px;
+    background-color: #2e3a4d;
+    /* Dark blue */
+    color: #fff;
+}
+
+.profile-form input[type="submit"] {
+    background-color: #ff0045;
+    /* Red */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.profile-form input[type="submit"]:hover {
+    background-color: #ff506a;
+    /* Light red */
+}
+
+
+/* Order history section */
+
+.order-history {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: #1d2633;
+    /* Dark blue */
+    color: #fff;
+}
+
+.order-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-history th,
+.order-history td {
+    border: 1px solid #1d2633;
+    padding: 10px;
+    background-color: #2e3a4d;
+    /* Dark blue */
+    color: #fff;
+}
+
+.order-history th {
+    background-color: #141d26;
+    /* Dark blue */
+    font-weight: bold;
+}
+
+.order-history tr:nth-child(even) {
+    background-color: #2e3a4d;
+    /* Dark blue */
+}

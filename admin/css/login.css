@@ -1,0 +1,76 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141d26;
+    color: #fff;
+}
+
+.container {
+    width: 320px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2e3a4d;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    margin-top: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.error {
+    color: #ff0045;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0045;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff506a;
+}
+
+
+/* Responsive Styles */
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}

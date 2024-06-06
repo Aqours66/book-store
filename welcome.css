@@ -1,0 +1,55 @@
+/* Reset default margin and padding */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Set up a centered content container */
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+/* Style for the h2 element */
+
+h2.welcome-title {
+    text-align: center;
+}
+
+.thankyou {
+    text-align: center;
+}
+
+
+/* Style for the profile image */
+
+img.profile-image {
+    display: block;
+    margin: auto;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+/* Style for the logout link */
+
+a.logout-link {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
+
+/* Style for the footer */
+
+footer.footer {
+    text-align: center;
+    margin-top: 20px;
+}
